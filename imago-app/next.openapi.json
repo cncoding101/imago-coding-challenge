@@ -1,0 +1,25 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Imago API",
+		"version": "1.0.0",
+		"description": "Media search API for IMAGO content library"
+	},
+	"servers": [
+		{
+			"url": "http://localhost:3000/api",
+			"description": "Local server"
+		}
+	],
+	"apiDir": "src/app/api",
+	"routerType": "app",
+	"schemaDir": "src/schemas",
+	"schemaType": "zod",
+	"outputFile": "openapi.json",
+	"outputDir": "./public",
+	"docsUrl": "/docs",
+	"ui": "scalar",
+	"includeOpenApiRoutes": false,
+	"ignoreRoutes": ["/docs"],
+	"debug": false
+}

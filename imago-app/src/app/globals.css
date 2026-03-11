@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './theme.css';
+
+@layer base {
+	* {
+		@apply border-base-300 outline-ring/50;
+	}
+	body {
+		@apply bg-base-100 text-base-content;
+	}
+}
